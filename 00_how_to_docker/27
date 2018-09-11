@@ -1,0 +1,1 @@
+docker service logs --follow $(docker service ls --filter name=engineering-bay -q)
