@@ -1,1 +1,1 @@
-docker service rm --force $(docker service ls -q)
+docker service rm $(docker service ls -q)
